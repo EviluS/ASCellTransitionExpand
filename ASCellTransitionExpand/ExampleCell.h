@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ExampleCell.h
 //  ASCellTransitionExpand
 //
 //  Created by George Petrov on 7/19/17.
@@ -8,6 +8,9 @@
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
-@interface ViewController : ASViewController
+@interface ExampleCell : ASCellNode
+
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *info;
 
 @end

@@ -10,12 +10,13 @@
 		0B2C205B23CF870199D683D2 /* Pods_ASCellTransitionExpand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8BF40B601744C8F9F93509 /* Pods_ASCellTransitionExpand.framework */; };
 		3638BDA51F1F532000F9ACE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDA41F1F532000F9ACE4 /* main.m */; };
 		3638BDA81F1F532000F9ACE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDA71F1F532000F9ACE4 /* AppDelegate.m */; };
-		3638BDAB1F1F532000F9ACE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDAA1F1F532000F9ACE4 /* ViewController.m */; };
-		3638BDAE1F1F532000F9ACE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3638BDAC1F1F532000F9ACE4 /* Main.storyboard */; };
 		3638BDB01F1F532000F9ACE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3638BDAF1F1F532000F9ACE4 /* Assets.xcassets */; };
 		3638BDB31F1F532000F9ACE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3638BDB11F1F532000F9ACE4 /* LaunchScreen.storyboard */; };
 		3638BDBE1F1F532000F9ACE4 /* ASCellTransitionExpandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDBD1F1F532000F9ACE4 /* ASCellTransitionExpandTests.m */; };
 		3638BDC91F1F532000F9ACE4 /* ASCellTransitionExpandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDC81F1F532000F9ACE4 /* ASCellTransitionExpandUITests.m */; };
+		3638BDDC1F1F5CBB00F9ACE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDDB1F1F5CBB00F9ACE4 /* ViewController.m */; };
+		3638BDE11F1F5D2600F9ACE4 /* ExampleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDE01F1F5D2600F9ACE4 /* ExampleNode.m */; };
+		3638BDE51F1F5F8B00F9ACE4 /* ExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638BDE41F1F5F8B00F9ACE4 /* ExampleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,6 @@
 		3638BDA41F1F532000F9ACE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3638BDA61F1F532000F9ACE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3638BDA71F1F532000F9ACE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3638BDA91F1F532000F9ACE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3638BDAA1F1F532000F9ACE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3638BDAD1F1F532000F9ACE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3638BDAF1F1F532000F9ACE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3638BDB21F1F532000F9ACE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3638BDB41F1F532000F9ACE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +50,12 @@
 		3638BDC41F1F532000F9ACE4 /* ASCellTransitionExpandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASCellTransitionExpandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3638BDC81F1F532000F9ACE4 /* ASCellTransitionExpandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCellTransitionExpandUITests.m; sourceTree = "<group>"; };
 		3638BDCA1F1F532000F9ACE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3638BDDA1F1F5CBB00F9ACE4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3638BDDB1F1F5CBB00F9ACE4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3638BDDF1F1F5D2600F9ACE4 /* ExampleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleNode.h; sourceTree = "<group>"; };
+		3638BDE01F1F5D2600F9ACE4 /* ExampleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleNode.m; sourceTree = "<group>"; };
+		3638BDE31F1F5F8B00F9ACE4 /* ExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCell.h; sourceTree = "<group>"; };
+		3638BDE41F1F5F8B00F9ACE4 /* ExampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCell.m; sourceTree = "<group>"; };
 		4B8BF40B601744C8F9F93509 /* Pods_ASCellTransitionExpand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASCellTransitionExpand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		664B64966E44E5093353FC40 /* Pods-ASCellTransitionExpand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCellTransitionExpand.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASCellTransitionExpand/Pods-ASCellTransitionExpand.release.xcconfig"; sourceTree = "<group>"; };
 		EFE9B30021A037D556F0DEB6 /* Pods-ASCellTransitionExpand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCellTransitionExpand.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASCellTransitionExpand/Pods-ASCellTransitionExpand.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,12 +114,10 @@
 			children = (
 				3638BDA61F1F532000F9ACE4 /* AppDelegate.h */,
 				3638BDA71F1F532000F9ACE4 /* AppDelegate.m */,
-				3638BDA91F1F532000F9ACE4 /* ViewController.h */,
-				3638BDAA1F1F532000F9ACE4 /* ViewController.m */,
-				3638BDAC1F1F532000F9ACE4 /* Main.storyboard */,
 				3638BDAF1F1F532000F9ACE4 /* Assets.xcassets */,
 				3638BDB11F1F532000F9ACE4 /* LaunchScreen.storyboard */,
-				3638BDB41F1F532000F9ACE4 /* Info.plist */,
+				3638BDDD1F1F5CC600F9ACE4 /* View Controllers */,
+				3638BDDE1F1F5CDA00F9ACE4 /* Nodes */,
 				3638BDA31F1F532000F9ACE4 /* Supporting Files */,
 			);
 			path = ASCellTransitionExpand;
@@ -124,6 +126,7 @@
 		3638BDA31F1F532000F9ACE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3638BDB41F1F532000F9ACE4 /* Info.plist */,
 				3638BDA41F1F532000F9ACE4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -145,6 +148,34 @@
 				3638BDCA1F1F532000F9ACE4 /* Info.plist */,
 			);
 			path = ASCellTransitionExpandUITests;
+			sourceTree = "<group>";
+		};
+		3638BDDD1F1F5CC600F9ACE4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3638BDDA1F1F5CBB00F9ACE4 /* ViewController.h */,
+				3638BDDB1F1F5CBB00F9ACE4 /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3638BDDE1F1F5CDA00F9ACE4 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				3638BDDF1F1F5D2600F9ACE4 /* ExampleNode.h */,
+				3638BDE01F1F5D2600F9ACE4 /* ExampleNode.m */,
+				3638BDE21F1F5F7C00F9ACE4 /* Cell */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		3638BDE21F1F5F7C00F9ACE4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3638BDE31F1F5F8B00F9ACE4 /* ExampleCell.h */,
+				3638BDE41F1F5F8B00F9ACE4 /* ExampleCell.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		6FBDC0BC81E13DED19F70444 /* Pods */ = {
@@ -234,7 +265,7 @@
 				TargetAttributes = {
 					3638BD9F1F1F532000F9ACE4 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3638BDB81F1F532000F9ACE4 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -275,7 +306,6 @@
 			files = (
 				3638BDB31F1F532000F9ACE4 /* LaunchScreen.storyboard in Resources */,
 				3638BDB01F1F532000F9ACE4 /* Assets.xcassets in Resources */,
-				3638BDAE1F1F532000F9ACE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +378,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3638BDAB1F1F532000F9ACE4 /* ViewController.m in Sources */,
+				3638BDDC1F1F5CBB00F9ACE4 /* ViewController.m in Sources */,
 				3638BDA81F1F532000F9ACE4 /* AppDelegate.m in Sources */,
+				3638BDE51F1F5F8B00F9ACE4 /* ExampleCell.m in Sources */,
+				3638BDE11F1F5D2600F9ACE4 /* ExampleNode.m in Sources */,
 				3638BDA51F1F532000F9ACE4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,14 +418,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3638BDAC1F1F532000F9ACE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3638BDAD1F1F532000F9ACE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3638BDB11F1F532000F9ACE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -500,10 +524,12 @@
 			baseConfigurationReference = EFE9B30021A037D556F0DEB6 /* Pods-ASCellTransitionExpand.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ASCellTransitionExpand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appscollider.ASCellTransitionExpand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -512,10 +538,12 @@
 			baseConfigurationReference = 664B64966E44E5093353FC40 /* Pods-ASCellTransitionExpand.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ASCellTransitionExpand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appscollider.ASCellTransitionExpand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -584,6 +612,7 @@
 				3638BDCF1F1F532000F9ACE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3638BDD01F1F532000F9ACE4 /* Build configuration list for PBXNativeTarget "ASCellTransitionExpandTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +621,7 @@
 				3638BDD21F1F532000F9ACE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3638BDD31F1F532000F9ACE4 /* Build configuration list for PBXNativeTarget "ASCellTransitionExpandUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +630,7 @@
 				3638BDD51F1F532000F9ACE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

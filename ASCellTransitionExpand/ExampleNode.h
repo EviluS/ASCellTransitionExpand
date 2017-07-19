@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ExampleNode.h
 //  ASCellTransitionExpand
 //
 //  Created by George Petrov on 7/19/17.
@@ -8,6 +8,6 @@
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
-@interface ViewController : ASViewController
+@interface ExampleNode : ASDisplayNode
 
 @end
